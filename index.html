@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/player.js"></script>
+<script src="js/game.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<!--Add database config here below-->
+  <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyBBBuz7YAYbi4XzChQlA1pWHiwjTpdRsuI",
+  authDomain: "fruitcoll-b723d.firebaseapp.com",
+  projectId: "fruitcoll-b723d",
+  storageBucket: "fruitcoll-b723d.appspot.com",
+  messagingSenderId: "658073204519",
+  appId: "1:658073204519:web:2f89bdb0dbaeb2428f9b02"
+};
+
+// Initialize Firebase
+ firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
